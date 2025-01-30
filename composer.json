@@ -1,0 +1,31 @@
+{
+	"name": "toto/kirby-soft-hyphens",
+	"description": "Kirby plugin to render soft hyphens markers in writer fields",
+	"type": "kirby-plugin",
+	"license": "MIT",
+	"version": "0.0.1",
+	"homepage": "https://github.com/hansipete/kirby-soft-hyphens",
+	"authors": [
+		{
+			"name": "Hans Kadel",
+			"email": "hans@supernodegree.com",
+			"homepage": "https://supernodegree.com"
+		}
+	],
+	"support": {
+		"issues": "https://github.com/hansipete/kirby-soft-hyphens/issues",
+		"source": "https://github.com/hansipete/kirby-soft-hyphens"
+	},
+	"keywords": ["kirby", "panel", "kirby-plugin", "soft-hyphens", "hyphens", "shy"],
+	"config": {
+		"optimize-autoloader": true,
+		"allow-plugins": {
+			"getkirby/composer-installer": true
+		}
+	},
+	"require": {
+		"getkirby/composer-installer": "^1.2"
+	},
+	"minimum-stability": "stable",
+	"prefer-stable": true
+}

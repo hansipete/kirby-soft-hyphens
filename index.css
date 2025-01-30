@@ -1,0 +1,23 @@
+shy {
+	width: 0;
+	display: inline-block;
+	position: relative;
+}
+
+shy::before {
+	content: "";
+	position: absolute;
+	width: 1px;
+	height: 1em;
+	bottom: -0.2em;
+	margin-left: -0.05ch;
+	background-color: var(--color-red-400);
+	mix-blend-mode: multiply; /* TODO: find better way to make this layer below original content */
+}
+
+.k-text--visible-soft-hyphens {
+	pointer-events: none;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}

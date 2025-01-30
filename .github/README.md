@@ -12,6 +12,12 @@ This plugin adds visual markers by appending them to soft hyphens in writer fiel
 
 (This tag will not be stored back to the content.txt as it's not on the allowed tags list of ProseMirror. So the highlight is only visible in the panel.) 
 
+## Installation
+
+```
+composer require toto/kirby-soft-hyphens
+```
+
 ## Upcoming features / ideas
 
 - [ ] Add custom writer mark to add a soft hyphen to the text.

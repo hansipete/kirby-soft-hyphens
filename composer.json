@@ -3,7 +3,6 @@
 	"description": "Kirby plugin to render soft hyphens markers in writer fields",
 	"type": "kirby-plugin",
 	"license": "MIT",
-	"version": "0.0.1",
 	"homepage": "https://github.com/hansipete/kirby-soft-hyphens",
 	"authors": [
 		{

@@ -1,0 +1,1 @@
+(function(){"use strict";const e="<shy style='color: var(--color-gray-400);'>|</shy>";panel.plugin("toto/kirby-hyphens",{use:[i=>{i.mixin({mounted(){this.$options.name==="k-writer-input"&&(this.$el.innerHTML=this.$el.innerHTML.replace(/\u00AD/g,`­${e}`))}})}]})})();

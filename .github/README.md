@@ -1,5 +1,7 @@
 # Kirby Soft Hyphens
 
+> :warning: **Work in progress**: More of a demo how it could be done. Right now not possible save edited writer fields when using this plugin. Have to investigate how to fix this :(
+
 Render visible soft hyphens `&shy;` in [k-writer](https://getkirby.com/docs/reference/panel/fields/writer) fields. 
 
 Can be used in combination with [Kirby Hidden Characters](https://github.com/grommasdietz/kirby-hidden-characters). That plugin adds a custom font to render (normally invisible) characters like spaces, line breaks, etc.
